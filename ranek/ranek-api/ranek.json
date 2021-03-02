@@ -1,0 +1,262 @@
+{
+  "transacao": [
+    {
+      "comprador_id": "maria@email.com",
+      "vendedor_id": "maria@email.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "maria@email.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "22640102",
+        "rua": "Avenida das Américas",
+        "numero": "1234",
+        "bairro": "Barra da Tijuca",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 1
+    },
+    {
+      "comprador_id": "niinoolopes0@gmail.com",
+      "vendedor_id": "maria@email.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "maria@email.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "08330-180",
+        "rua": "Avenida Sapopemba",
+        "numero": "123",
+        "bairro": "Cidade Satélite Santa Bárbara",
+        "cidade": "São Paulo",
+        "estado": "São Paulo"
+      },
+      "id": 2
+    }
+  ],
+  "usuario": [
+    {
+      "id": "andre@origamid.com",
+      "email": "andre@origamid.com",
+      "nome": "André Rafael",
+      "senha": "123",
+      "rua": "Rua Ali Perto",
+      "cep": "12345678",
+      "numero": "25",
+      "estado": "RJ",
+      "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "joaomarcos@origamid.com",
+      "email": "joaomarcos@origamid.com",
+      "nome": "João Marcos",
+      "senha": "123",
+      "rua": "Rua Ali Perto",
+      "cep": "12345678",
+      "numero": "25",
+      "estado": "RJ",
+      "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "maria@email.com",
+      "nome": "Maria das Neves",
+      "email": "maria@email.com",
+      "senha": "123",
+      "cep": "22640102",
+      "rua": "Avenida das Américas",
+      "numero": "1234",
+      "bairro": "Barra da Tijuca",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "id": "niinoolopes0@gmail.com",
+      "nome": "Anderson Lopes",
+      "email": "niinoolopes0@gmail.com",
+      "senha": "123",
+      "cep": "08330-180",
+      "rua": "Avenida Sapopemba",
+      "numero": "123",
+      "bairro": "Cidade Satélite Santa Bárbara",
+      "cidade": "São Paulo",
+      "estado": "São Paulo"
+    }
+  ],
+  "produto": [
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "maria@email.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "maria@email.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "maria@email.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook1",
+      "nome": "Notebook",
+      "usuario_id": "maria@email.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone1",
+      "nome": "Smartphone",
+      "usuario_id": "maria@email.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet1",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook2",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone2",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet2",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook3",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone3",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet3",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "nome": "novo tablet",
+      "preco": "150",
+      "descricao": "novo tablet novo",
+      "fotos": null,
+      "usuario_id": "maria@email.com",
+      "id": "HKS3gPJ"
+    },
+    {
+      "nome": "novo tablet",
+      "preco": "150",
+      "descricao": "novo tablet novo",
+      "fotos": null,
+      "usuario_id": "maria@email.com",
+      "id": "DiCjHZE"
+    },
+    {
+      "nome": "novo tablet",
+      "preco": "150",
+      "descricao": "novo tablet novo",
+      "fotos": null,
+      "usuario_id": "maria@email.com",
+      "id": "ByYww-R"
+    },
+    {
+      "nome": "novo tablet",
+      "preco": "150",
+      "descricao": "novo tablet novo",
+      "fotos": null,
+      "usuario_id": "maria@email.com",
+      "id": "UKbHt0r"
+    },
+    {
+      "nome": "",
+      "preco": "",
+      "descricao": "",
+      "fotos": null,
+      "usuario_id": "",
+      "id": "_iSZRoT"
+    },
+    {
+      "nome": "Anderson Lopes",
+      "preco": "123",
+      "descricao": "dsa",
+      "fotos": null,
+      "usuario_id": "",
+      "id": "DxbEjy1"
+    },
+    {
+      "nome": "Anderson Lopes 2",
+      "preco": "123",
+      "descricao": "dsa",
+      "fotos": null,
+      "usuario_id": "",
+      "id": "zs1djfa"
+    }
+  ]
+}
