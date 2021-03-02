@@ -1,0 +1,19 @@
+{
+  "name": "curso",
+  "version": "1.0.0",
+  "description": "> [Origamid](https://www.origamid.com/curso/) || [Cursos](https://www.origamid.com/curso/) || [CSS - Grid Layout](https://www.origamid.com/curso/css-grid-layout/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-concat": "^2.6.1"
+  }
+}

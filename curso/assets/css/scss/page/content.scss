@@ -1,0 +1,123 @@
+.content {
+  grid-area: content;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  grid-gap: 30px;
+}
+
+.content .titulo {
+  color:  $roxo_2;
+}
+
+.content .titulo h1 {
+  font-size: 3.75em;
+  line-height: 1;
+  font-weight: 700;
+  max-width: 150px;
+}
+
+.content .titulo span {
+  font-size: 0.875em;
+  font-style: italic;
+}
+
+.content .caracteristicas {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content .caracteristicas > div {
+  width: 80px;
+  text-align: center;
+  background: $bg_gradiente;
+  border-radius: $radius;
+  box-shadow: $shadow;
+}
+
+.content .caracteristicas > div:first-child {
+  margin-right: 30px;
+}
+
+.content .caracteristicas span {
+  display: block;
+  color:  $roxo_2;
+}
+
+.content .caracteristicas .numero {
+  font-size: 3em;
+  line-height: 1;
+  margin: 5px auto; 
+}
+
+.content .caracteristicas .rotulo {
+  background: white;
+  border-radius: 0 0 5px 5px;
+  padding: 5px 0;
+}
+
+.content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color:  rgba(0,0,0,.7);
+}
+
+.content .informacoes p + p{
+  margin-top: 30px;
+}
+
+.content .destaque{
+  font-size: 0.875em;
+  color:  $roxo_2;
+  max-width: 16em;
+}
+
+.content .citacao, 
+.content .atributos{
+  align-self: start;
+  padding: 30px;
+  border-radius: $radius;
+  box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, .15);
+  background: $bg_gradiente2;
+  color: white;
+}
+
+.content .citacao p{
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.content .atributos li{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.125em;
+  padding: 15px;
+}
+
+.content .atributos li + li{
+  border-top: 2px solid $roxo_2;
+}
+
+/* -- -- -- */
+
+
+.col-wide {
+  grid-column: 1 / -1;
+}
+
+.imagem-1 {
+  align-self: flex-end;
+  grid-row: span 2;
+}
+
+.item-2 {
+  align-self: flex-end;
+}
+
+

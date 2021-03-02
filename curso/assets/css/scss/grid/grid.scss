@@ -1,0 +1,56 @@
+.estrutura{
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) 3fr 300px;
+  grid-template-areas: 
+    "header header header"
+    "sidnav content anuncios"
+    "footer footer footer"
+    ;
+}
+
+
+.header {
+  grid-area: header;
+}
+
+.sidnav {
+  grid-area: sidnav;
+}
+
+.content {
+  grid-area: content;
+}
+
+.anuncios {
+  grid-area: anuncios;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+
+// @media
+@media (max-width: 1200px){
+  .estrutura{
+    grid-template-areas: 
+    "header header header"
+    "sidnav content content"
+    "sidnav anuncios anuncios"
+    "footer footer footer"
+    ;
+  }
+}
+
+@media (max-width: 760px){
+  .estrutura{
+  grid-template-columns: auto;
+  grid-template-areas: 
+    "header"
+    "sidnav "
+    "content"
+    "anuncios"
+    "footer"
+    ;
+  }
+}

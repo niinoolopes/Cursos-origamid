@@ -1,0 +1,9 @@
+.footer {
+  grid-area: footer;
+  background: $bg_gradiente; 
+}
+.footer p{
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
