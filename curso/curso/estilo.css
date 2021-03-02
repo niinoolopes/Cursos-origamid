@@ -1,0 +1,220 @@
+
+/* GERAIS */
+
+  * {
+    font-family: monospace;
+  }
+
+  body > header{
+    padding: 20px 0;
+    color: #fff;
+    background: rgba(20, 40, 80, 1);
+  }
+
+  section{
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  pre{
+    /* margin-top: 25px !important; */
+    padding: 5px 0;
+    background: rgba(20,40,80,.05);
+  }
+
+  .container {
+  } 
+
+  .container,
+  pre{
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid rgba(20,40,80, .3);
+  }
+
+  .titulo{
+
+  }
+
+  .subtitulo{
+
+  } 
+
+  .titulo,
+  .subtitulo{
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+  }
+
+  .item {
+    font-size: 20px;
+    background: rgba(20, 40, 80, .25);
+    margin: 4px;
+    padding: 4px 0;
+    text-align: center;
+  }
+
+  .line-b{
+    background: #142850;
+    color: #fff; 
+  }
+  .box-exemplo{
+    border: 2px solid rgba(20, 40, 80, .25);
+  }
+
+  .width-max-600{
+    width: 100%;
+    max-width: 600px;
+  }
+  .height-300{
+    height: 300px;
+  }
+
+  .p-2{
+    padding: 2px;
+  }
+  .px-2{
+    padding: 0 2px;
+  }
+  .py-2{
+    padding: 2px 0;
+  }
+  .p-10{
+    padding: 10px;
+  }
+  .px-10{
+    padding: 0 10px;
+  }
+  .py-10{
+    padding: 10px 0;
+  }
+  .p-20{
+    padding: 20px;
+  }
+  .px-20{
+    padding: 0 20px;
+  }
+  .py-20{
+    padding: 20px 0;
+  }
+  .p-30{
+    padding: 30px;
+  }
+  .px-30{
+    padding: 0 30px;
+  }
+  .py-30{
+    padding: 30px 0;
+  }
+/* GERAIS - FIM */
+
+
+
+    .d-block {
+      display: block;
+    }
+
+    .d-flex {
+      display: flex;
+    }
+    .align-items-center{
+      align-items: center;
+    }
+
+    .justify-content-center{
+      justify-content: center
+    }
+
+    .justify-content-start{
+      justify-content: flex-start
+    }
+
+    .justify-content-end{
+      justify-content: flex-end
+    }
+
+    .justify-content-between{
+      justify-content: space-between
+    }
+
+    .justify-content-around{
+      justify-content: space-around
+    }
+
+    .justify-content-evenly{
+      justify-content: space-evenly
+    }
+
+    .wrap {
+      flex-wrap: wrap;
+    }
+
+    .nowrap {
+      flex-wrap: nowrap;
+    }
+
+    .wrap-reverse {
+      flex-wrap: wrap-reverse;
+    }
+
+    .flex-1 {
+      flex: 1;
+    }
+
+    .flow-wrap{
+      flex-flow: wrap;
+    }
+
+    .flow-wrap-reverse{
+      flex-flow: wrap-reverse;
+    }
+
+    .flow-wrap-reverse-column{
+      flex-flow: wrap-reverse column;
+    }
+
+    .flow-wrap-column{
+      flex-flow: wrap column;
+    }
+
+    .flow-wrap-column-reverse{
+      flex-flow: wrap column-reverse;
+    }
+
+    .flow-wrap-reverse-column-reverse{
+      flex-flow: wrap-reverse column-reverse;
+    }
+
+    .flow-column{
+      flex-flow: column;
+    }
+
+    .flow-column-reverse{
+      flex-flow: column-reverse;
+    }
+    /* aula 02 */
+
+    .row{
+      flex-direction: row;
+    }
+
+    .row-reverse{
+      flex-direction: row-reverse;
+    }
+
+    .column{
+      flex-direction: column;
+    }
+
+    .column-reverse{
+      flex-direction: column-reverse;
+    }
+    
+    @media (min-width: 500px){
+      .d-flex-sm {
+        display: flex;
+      }
+    }

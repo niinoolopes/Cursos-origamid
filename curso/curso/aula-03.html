@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aula | 03</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+  <header>
+    <h1 class="titulo">Aula 03: flex-wrap: wrap</h1>
+  </header>
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">flex-wrap: nowrap</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-flex nowrap">
+          <div class="item flex-1">PalavraGrande1</div>
+          <div class="item flex-1">PalavraGrande3</div>
+          <div class="item flex-1">PalavraGrande2</div>
+        </div>
+      </article>
+      <article class="width-max-600">
+        <pre>
+        .nowrap{
+          flex-direction: nowrap;
+        }
+        </pre>
+      </article>
+    </div>
+  </section>
+
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">flex-wrap: wrap</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-flex wrap">
+          <div class="item flex-1">PalavraGrande1</div>
+          <div class="item flex-1">PalavraGrande2</div>
+          <div class="item flex-1">PalavraGrande3</div>
+        </div>
+      </article>
+      <article class="width-max-600">
+        <pre>
+        .wrap{
+          flex-wrap: wrap;
+        }
+        </pre>
+      </article>
+    </div>
+  </section>
+
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">flex-wrap: wrap-reverse</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-flex wrap-reverse">
+          <div class="item flex-1">PalavraGrande1</div>
+          <div class="item flex-1">PalavraGrande2</div>
+          <div class="item flex-1">PalavraGrande3</div>
+        </div>
+      </article>
+      <article class="width-max-600">
+        <pre>
+        .wrap-reverse{
+          flex-direction: wrap-reverse;
+        }
+        </pre>
+      </article>
+    </div>
+  </section>
+
+</body>
+
+</html>

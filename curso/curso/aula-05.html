@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aula | 06</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+  <header>
+    <h1 class="titulo">Aula 06: justify-content</h1>
+  </header>
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">Justify-content: flex-start</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-flex justify-content-start">
+          <div class="item p-2">Item 1</div>
+          <div class="item p-2">Item 2</div>
+          <div class="item p-2">Item 3</div>
+        </div>
+      </article>
+      <article class="width-max-600">
+        <pre>
+        .justify-content-start{
+          justify-content: flex-start
+        }
+        </pre>
+      </article>
+    </div>
+  </section>
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">Justify-content: flex-end</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-flex justify-content-end">
+          <div class="item p-2">Item 1</div>
+          <div class="item p-2">Item 2</div>
+          <div class="item p-2">Item 3</div>
+        </div>
+      </article>
+      <article class="width-max-600">
+        <pre>
+        .justify-content-end{
+          justify-content: flex-end
+        }
+        </pre>
+      </article>
+    </div>
+  </section>
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">Justify-content: space-between</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-flex justify-content-between">
+          <div class="item p-2">Item 1</div>
+          <div class="item p-2">Item 2</div>
+          <div class="item p-2">Item 3</div>
+        </div>
+      </article>
+      <article class="width-max-600">
+        <pre>
+        .justify-content-between{
+          justify-content: space-between
+        }
+        </pre>
+      </article>
+    </div>
+  </section>
+
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">Justify-content: space-around</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-flex justify-content-around">
+          <div class="item p-2">Item 1</div>
+          <div class="item p-2">Item 2</div>
+          <div class="item p-2">Item 3</div>
+        </div>
+      </article>
+      <article class="width-max-600">
+        <pre>
+        .justify-content-around{
+          justify-content: space-around
+        }
+        </pre>
+      </article>
+    </div>
+  </section>
+
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">Justify-content: space-evenly</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-flex justify-content-evenly">
+          <div class="item p-2">Item 1</div>
+          <div class="item p-2">Item 2</div>
+          <div class="item p-2">Item 3</div>
+        </div>
+      </article>
+      <article class="width-max-600">
+        <pre>
+        .justify-content-evenly{
+          justify-content: space-evenly
+        }
+        </pre>
+      </article>
+    </div>
+  </section>
+
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">Justify-content: space-around + flex-1</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-flex justify-content-around">
+          <div class="item flex-1 p-2">Item 1</div>
+          <div class="item flex-1 p-2">Item_nome Grande 2</div>
+          <div class="item flex-1 p-2">Item 3</div>
+        </div>
+      </article>
+      <article class="width-max-600">
+        <pre>
+        .justify-content-around{
+          justify-content: space-around
+        }
+        .flex-1{
+          flex: 1
+        }
+        </pre>
+      </article>
+    </div>
+  </section>
+
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">Justify-content: space-start + column</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-flex justify-content-start column height-300">
+          <div class="item p-2">Item 1</div>
+          <div class="item p-2">Item 2</div>
+          <div class="item p-2">Item 3</div>
+        </div>
+      </article>
+      <article class="width-max-600 ">
+        <pre>
+        .justify-content-start{
+          justify-content: space-start
+        }
+        .column{
+          flex-direction: column;
+        }
+        </pre>
+      </article>
+    </div>
+  </section>
+
+
+
+  <section>
+      <h2 class="subtitulo line-b p-10">Justify-content: space-end + column</h2>
+      <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+        <article class="width-max-600">
+          <div class="container d-flex justify-content-end column height-300">
+            <div class="item p-2">Item 1</div>
+            <div class="item p-2">Item 2</div>
+            <div class="item p-2">Item 3</div>
+          </div>
+        </article>
+        <article class="width-max-600 ">
+          <pre>
+          .justify-content-end{
+            justify-content: space-end
+          }
+          .column{
+            flex-direction: column;
+          }
+          </pre>
+        </article>
+      </div>
+    </section>
+
+
+
+    <section>
+        <h2 class="subtitulo line-b p-10">Justify-content: center + column</h2>
+        <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+          <article class="width-max-600">
+            <div class="container d-flex justify-content-center column height-300">
+              <div class="item p-2">Item 1</div>
+              <div class="item p-2">Item 2</div>
+              <div class="item p-2">Item 3</div>
+            </div>
+          </article>
+          <article class="width-max-600 ">
+            <pre>
+            .justify-content-center{
+              justify-content: center
+            }
+            .column{
+              flex-direction: column;
+            }
+            </pre>
+          </article>
+        </div>
+      </section>
+
+
+
+      <section>
+          <h2 class="subtitulo line-b p-10">Justify-content: center + column + flex-1</h2>
+          <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+            <article class="width-max-600">
+              <div class="container d-flex justify-content-center column height-300">
+                <div class="item flex-1 p-2">Item 1</div>
+                <div class="item flex-1 p-2">Item 2</div>
+                <div class="item flex-1 p-2">Item 3</div>
+              </div>
+            </article>
+            <article class="width-max-600 ">
+              <pre>
+                .justify-content-center{
+                  justify-content: center
+                }
+                .column{
+                  flex-direction: column;
+                }
+                .flex-1{
+                  clex: 1
+                }
+                </pre>
+            </article>
+          </div>
+        </section>
+
+</body>
+
+</html>

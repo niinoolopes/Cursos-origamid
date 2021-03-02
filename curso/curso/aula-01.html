@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aula | 01</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+  <header>
+    <h1 class="titulo">Aula 01: display flex</h1>
+  </header>
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">display: block</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-block">
+          <div class="item">Teste 1</div>
+          <div class="item">Teste 2</div>
+          <div class="item">Teste 3</div>
+          <div class="item">Teste 4</div>
+          <div class="item">Teste 5</div>
+          <div class="item">Teste 6</div>
+          <div class="item">Teste 7</div>
+        </div>
+      </article>
+      <article class="width-max-600">
+        <pre>
+       .d-block{
+         display: block
+       }
+       </pre>
+      </article>
+    </div>
+  </section>
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">display: flex</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-flex">
+          <div class="item">Teste 1</div>
+          <div class="item">Teste 2</div>
+          <div class="item">Teste 3</div>
+          <div class="item">Teste 4</div>
+          <div class="item">Teste 5</div>
+          <div class="item">Teste 6</div>
+          <div class="item">Teste 7</div>
+        </div>
+      </article>
+      <article class="width-max-600">
+        <pre>
+       .d-flex{
+         display: flex;
+       }
+       </pre>
+      </article>
+    </div>
+  </section>
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">display: flex + flex-wrap</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-flex wrap">
+          <div class="item">teste 1</div>
+          <div class="item">teste 2</div>
+          <div class="item">teste 3</div>
+          <div class="item">teste 4</div>
+          <div class="item">teste 5</div>
+          <div class="item">teste 6</div>
+          <div class="item">teste 7</div>
+        </div>
+      </article>
+      <article class="width-max-600">
+        <pre>
+       .d-flex{
+         display: flex;
+       }
+       .wrap{
+         flex-wrap: wrap;
+       }
+       </pre>
+      </article>
+    </div>
+  </section>
+
+
+  <section>
+    <h2 class="subtitulo line-b p-10">display: flex + flex-1</h2>
+    <div class="d-flex-sm justify-content-center py-20 box-exemplo">
+      <article class="width-max-600">
+        <div class="container d-flex ">
+          <div class="item flex-1">teste 1</div>
+          <div class="item flex-1">teste 2</div>
+          <div class="item flex-1">teste 3</div>
+          <div class="item flex-1">teste 4</div>
+          <div class="item flex-1">teste 5</div>
+        </div>
+      </article>
+      <article class="width-max-600">
+        <pre>
+       .d-flex{
+         display: flex;
+       }
+       .flex-1{
+         flex: 1;
+       }
+       </pre>
+      </article>
+    </div>
+  </section>
+
+
+
+</body>
+
+</html>
