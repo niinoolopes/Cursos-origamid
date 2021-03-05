@@ -1,21 +1,20 @@
-# [React.js Completo](https://github.com/niinoolopes/Curso-Origamid-Javascript-React.js-Completo)
+# [Cursos Origamid](https://github.com/niinoolopes/Cursos-origamid)
 
-> [Origamid](https://www.origamid.com) || [Cursos](https://www.origamid.com/curso) || [Vue.js Completo](https://www.origamid.com/curso/react-completo/)
+> [Origamid](https://www.origamid.com)
 
-<hr>
+# Cursos
+ - React.js - Completo
+ - Vue.js - Completo
 
-## _1 - [React.js Completo](#)_
+# Branch existentes:
+ - Javascript-react-completo
+ - Javascript-vue-completo
 
-## _2 - [React.js Para Iniciantes](#)_
-
-## _3 - [React Hooks](#)_
-
-## _4 - [Formulários](#)_
-
-## _5 - [Css](#)_
-
-## _6 - [React Router](#)_
-
-## _7 - [Mais react](#)_
-
-## _8 - [Projeto Final](#)_
+# Adicionando novas brench:
+<pre>
+git init
+git add .
+git commit -m "adiciona nova branch"
+git branch -b 'nome-branch'
+git remote add origin git@github.com:niinoolopes/Cursos-origamid.git
+git push -u origin 'nome-branch'
