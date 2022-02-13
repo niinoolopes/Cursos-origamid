@@ -1,0 +1,14 @@
+<h1 id="texto" cor="red">Olá Mundo!</h1>
+
+<style>
+</style>
+
+<script>
+  function mudar() {
+    var newCor = texto.cor === 'red' ? 'blue'  :'red'
+    texto.cor = newCor
+    texto.style.color =  newCor
+  }
+  mudar()
+  texto.addEventListener('click', mudar)
+</script>
